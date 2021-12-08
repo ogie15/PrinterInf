@@ -6,12 +6,12 @@ Signature="$Windows NT$"
 Provider=%TOSH%
 ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
 Class=Printer
-CatalogFile=eSf6u.cat
+CatalogFile=eSf3u.cat
 DriverVer=03/09/2021,7.222.5412.0
 DriverIsolation=2
 
 [Manufacturer]
-%TOSH%=TOSHIBA,NTamd64,NTamd64.6.0
+%TOSH%=TOSHIBA,NTx86,NTx86.6.0
 
 
 
@@ -288,7 +288,7 @@ DriverIsolation=2
 "TOSHIBA Universal Printer 2" = install_pre_vista,WSDPRINT\TOSHIBAMPS_Universal4AB1
 "TOSHIBA Universal Printer 2" = install_pre_vista,WSDPRINT\TOSHIBAe-STUDIO5018LP
 
-[TOSHIBA.NTamd64]
+[TOSHIBA.NTx86]
 "TOSHIBA Universal Printer 2" = install_pre_vista,TOSHIBATOSHIBA_Unive5D6E,1284_CID_TS_PCL6_Color
 "TOSHIBA Universal Printer 2" = install_pre_vista,USBPRINT\TOSHIBAe-STUDIO6550CD363
 "TOSHIBA Universal Printer 2" = install_pre_vista,USBPRINT\TOSHIBAe-STUDIO6540C1332
@@ -561,7 +561,7 @@ DriverIsolation=2
 "TOSHIBA Universal Printer 2" = install_pre_vista,WSDPRINT\TOSHIBAMPS_Universal4AB1
 "TOSHIBA Universal Printer 2" = install_pre_vista,WSDPRINT\TOSHIBAe-STUDIO5018LP
 
-[TOSHIBA.NTamd64.6.0]
+[TOSHIBA.NTx86.6.0]
 "TOSHIBA Universal Printer 2" = install_vista,TOSHIBATOSHIBA_Unive5D6E,1284_CID_TS_PCL6_Color
 "TOSHIBA Universal Printer 2" = install_vista,USBPRINT\TOSHIBAe-STUDIO6550CD363
 "TOSHIBA Universal Printer 2" = install_vista,USBPRINT\TOSHIBAe-STUDIO6540C1332
@@ -835,18 +835,18 @@ DriverIsolation=2
 "TOSHIBA Universal Printer 2" = install_vista,WSDPRINT\TOSHIBAe-STUDIO5018LP
 
 [install_pre_vista]
-DataFile=eSf6u.gpd
+DataFile=eSf3u.gpd
 DataSection=UNIDRV_DATA
 CopyFiles=drvfiles
 
 [install_vista]
-DataFile=eSf6u.gpd
+DataFile=eSf3u.gpd
 CopyFiles=drvfiles
 DriverFile=UNIDRV.DLL
 ConfigFile=UNIDRVUI.DLL
 HelpFile=UNIDRV.HLP
 
-[PrinterPackageInstallation.amd64]
+[PrinterPackageInstallation.x86]
 PackageAware=TRUE
 
 [UNIDRV_DATA]
@@ -855,33 +855,33 @@ ConfigFile=UNIDRVUI.DLL
 HelpFile=UNIDRV.HLP
 
 [drvfiles]
-eSf6ufw.dll,,,0x00000020
-eSf6ufwdsdk.dll,,,0x00000020
-eSf6upclxl.dll,,,0x00000020
-eSf6ups.dll,,,0x00000020 
-eSf6updf.dll,,,0x00000020 
-eSf6u.dll,,,0x00000020 
-eSf6uui.dll,,,0x00000020 
-eSf6u.gpd,,,0x00000020 
-eSf6u.ini,,,0x00000020 
-eSf6u.xml,,,0x00000020 
-eSf6u.ver,,,0x00000020 
-eSf6ucap.xml,,,0x00000020 
-eSf6uval.xml,,,0x00000020 
-eSf6udevSettings.xml,,,0x00000020 
-eSf6upjl.xml,,,0x00000020 
-eSf6updfpjl.xml,,,0x00000020 
-eSf6upjl_mps.xml,,,0x00000020 
-eSf6ubase.zip,,,0x00000020 
-eSf6ubase.dll,,,0x00000020 
-eSf6udevicesettings.zip,,,0x00000020 
-eSf6udevicesettings.dll,,,0x00000020 
-eSf6udefpr.xml,,,0x00000020 
-eSf6ujcore.dll,,,0x00000020 
+eSf3ufw.dll,,,0x00000020
+eSf3ufwdsdk.dll,,,0x00000020
+eSf3upclxl.dll,,,0x00000020
+eSf3ups.dll,,,0x00000020 
+eSf3updf.dll,,,0x00000020 
+eSf3u.dll,,,0x00000020 
+eSf3uui.dll,,,0x00000020 
+eSf3u.gpd,,,0x00000020 
+eSf3u.ini,,,0x00000020 
+eSf3u.xml,,,0x00000020 
+eSf3u.ver,,,0x00000020 
+eSf3ucap.xml,,,0x00000020 
+eSf3uval.xml,,,0x00000020 
+eSf3udevSettings.xml,,,0x00000020 
+eSf3upjl.xml,,,0x00000020 
+eSf3updfpjl.xml,,,0x00000020 
+eSf3upjl_mps.xml,,,0x00000020 
+eSf3ubase.zip,,,0x00000020 
+eSf3ubase.dll,,,0x00000020 
+eSf3udevicesettings.zip,,,0x00000020 
+eSf3udevicesettings.dll,,,0x00000020 
+eSf3udefpr.xml,,,0x00000020 
+eSf3ujcore.dll,,,0x00000020 
 eSfWM.exe,,,0x00000020 
-eSf6uHSP.exe,,,0x00000020 
+eSf3uHSP.exe,,,0x00000020 
 eSfOVL.exe,,,0x00000020 
-eSf6udownload.exe,,,0x00000020 
+eSf3udownload.exe,,,0x00000020 
 eSfpnp.dll,,,0x00000020 
 locale.gpd,,,0x00000020 
 pclxl.dll,,,0x00000020 
@@ -901,57 +901,57 @@ unidrv.dll,,,0x00000020
 unidrv.hlp,,,0x00000020 
 unidrvui.dll,,,0x00000020 
 unires.dll,,,0x00000020 
-eSf6usf_builtin.dll,,,0x00000020 
-eSf6ueffect.zip,,,0x00000020 
-eSf6ueffect.dll,,,0x00000020 
-eSf6uhsp.zip,,,0x00000020 
-eSf6uhsp.dll,,,0x00000020 
-eSf6uimagequality.zip,,,0x00000020 
-eSf6uimagequality.dll,,,0x00000020 
-eSf6utandemPrint.zip,,,0x00000020 
-eSf6utandemprint.dll,,,0x00000020 
-eSf6upagehandling.zip,,,0x00000020 
-eSf6upagehandling.dll,,,0x00000020 
-eSf6uaddprinter.zip,,,0x00000020 
-eSf6uaddprinter.dll,,,0x00000020 
-eSf6uonetouch.zip,,,0x00000020 
-eSf6uonetouch.dll,,,0x00000020 
-eSf6urulesbasedprintings.zip,,,0x00000020 
-eSf6urulesbasedprintings.dll,,,0x00000020 
-eSf6ucommon.zip,,,0x00000020 
-eSf6ucommon.dll,,,0x00000020 
+eSf3usf_builtin.dll,,,0x00000020 
+eSf3ueffect.zip,,,0x00000020 
+eSf3ueffect.dll,,,0x00000020 
+eSf3uhsp.zip,,,0x00000020 
+eSf3uhsp.dll,,,0x00000020 
+eSf3uimagequality.zip,,,0x00000020 
+eSf3uimagequality.dll,,,0x00000020 
+eSf3utandemPrint.zip,,,0x00000020 
+eSf3utandemprint.dll,,,0x00000020 
+eSf3upagehandling.zip,,,0x00000020 
+eSf3upagehandling.dll,,,0x00000020 
+eSf3uaddprinter.zip,,,0x00000020 
+eSf3uaddprinter.dll,,,0x00000020 
+eSf3uonetouch.zip,,,0x00000020 
+eSf3uonetouch.dll,,,0x00000020 
+eSf3urulesbasedprintings.zip,,,0x00000020 
+eSf3urulesbasedprintings.dll,,,0x00000020 
+eSf3ucommon.zip,,,0x00000020 
+eSf3ucommon.dll,,,0x00000020 
 
 [DestinationDirs]
 DefaultDestDir=66000
 
 [SourceDisksNames]
 1 = %SOURCE_DISK%,,,
-2 = %SOURCE_DISK%,eSf6usfpkg.cab,,
+2 = %SOURCE_DISK%,eSf3usfpkg.cab,,
 
 [SourceDisksFiles]
-eSf6ufw.dll=1
-eSf6ufwdsdk.dll=1
-eSf6upclxl.dll=1
-eSf6ups.dll=1 
-eSf6updf.dll=1 
-eSf6u.dll=1 
-eSf6uui.dll=1 
-eSf6u.gpd=1 
-eSf6u.ini=1 
-eSf6u.xml=1 
-eSf6u.ver=1 
-eSf6ucap.xml=1 
-eSf6uval.xml=1 
-eSf6udevSettings.xml=1 
-eSf6upjl.xml=1 
-eSf6updfpjl.xml=1 
-eSf6upjl_mps.xml=1 
-eSf6ubase.zip=1 
-eSf6ubase.dll=1 
-eSf6udevicesettings.zip=1 
-eSf6udevicesettings.dll=1 
-eSf6udefpr.xml=1 
-eSf6ujcore.dll=1 
+eSf3ufw.dll=1
+eSf3ufwdsdk.dll=1
+eSf3upclxl.dll=1
+eSf3ups.dll=1 
+eSf3updf.dll=1 
+eSf3u.dll=1 
+eSf3uui.dll=1 
+eSf3u.gpd=1 
+eSf3u.ini=1 
+eSf3u.xml=1 
+eSf3u.ver=1 
+eSf3ucap.xml=1 
+eSf3uval.xml=1 
+eSf3udevSettings.xml=1 
+eSf3upjl.xml=1 
+eSf3updfpjl.xml=1 
+eSf3upjl_mps.xml=1 
+eSf3ubase.zip=1 
+eSf3ubase.dll=1 
+eSf3udevicesettings.zip=1 
+eSf3udevicesettings.dll=1 
+eSf3udefpr.xml=1 
+eSf3ujcore.dll=1 
 locale.gpd=1 
 pclxl.dll=1 
 pclxl.gpd=1 
@@ -970,30 +970,30 @@ unidrv.dll=1
 unidrv.hlp=1 
 unidrvui.dll=1 
 unires.dll=1 
-eSf6usf_builtin.dll=2 
+eSf3usf_builtin.dll=2 
 eSfWM.exe=1 
-eSf6uHSP.exe=1 
+eSf3uHSP.exe=1 
 eSfOVL.exe=1 
-eSf6udownload.exe=1 
+eSf3udownload.exe=1 
 eSfpnp.dll=1,,
-eSf6ueffect.zip=1,,
-eSf6ueffect.dll=1,,
-eSf6uhsp.zip=1,,
-eSf6uhsp.dll=1,,
-eSf6uimagequality.zip=1,,
-eSf6uimagequality.dll=1,,
-eSf6utandemPrint.zip=1,,
-eSf6utandemprint.dll=1,,
-eSf6upagehandling.zip=1,,
-eSf6upagehandling.dll=1,,
-eSf6uaddprinter.zip=1,,
-eSf6uaddprinter.dll=1,,
-eSf6uonetouch.zip=1,,
-eSf6uonetouch.dll=1,,
-eSf6urulesbasedprintings.zip=1,,
-eSf6urulesbasedprintings.dll=1,,
-eSf6ucommon.zip=1,,
-eSf6ucommon.dll=1,,
+eSf3ueffect.zip=1,,
+eSf3ueffect.dll=1,,
+eSf3uhsp.zip=1,,
+eSf3uhsp.dll=1,,
+eSf3uimagequality.zip=1,,
+eSf3uimagequality.dll=1,,
+eSf3utandemPrint.zip=1,,
+eSf3utandemprint.dll=1,,
+eSf3upagehandling.zip=1,,
+eSf3upagehandling.dll=1,,
+eSf3uaddprinter.zip=1,,
+eSf3uaddprinter.dll=1,,
+eSf3uonetouch.zip=1,,
+eSf3uonetouch.dll=1,,
+eSf3urulesbasedprintings.zip=1,,
+eSf3urulesbasedprintings.dll=1,,
+eSf3ucommon.zip=1,,
+eSf3ucommon.dll=1,,
 
 [Strings]
 TOSH="TOSHIBA"
